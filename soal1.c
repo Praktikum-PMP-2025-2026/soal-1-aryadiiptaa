@@ -1,3 +1,12 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : Overview of C Language
+ *   Hari dan Tanggal    : Selasa, 14 April 2026
+ *   Nama (NIM)          : Ihsan Arya Pradipta (13224037)
+ *   Nama File           : soal1.c
+ *   Deskripsi           : Keluaran sesuai warna
+ * 
+ */
+
 #include <stdio.h>
 
 
@@ -22,9 +31,6 @@ int main(void){
         }
         else if(i%2==0){
             printf("KUNING\n");
-        }
-        else if(i>=10 && jumlahdigit(i)%2==0){
-            printf("HIJAU\n");
         }
         else{
             printf("%d\n",i);
